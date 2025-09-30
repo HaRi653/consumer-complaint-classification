@@ -34,19 +34,33 @@ Steps Followed
   
 
  Results
+ Dataset Description
+ <img width="1176" height="698" alt="Screenshot 2025-09-30 192109" src="https://github.com/user-attachments/assets/a7679b0b-57bd-4cae-9042-3881e75d626c" />
+
 Logistic Regression
+<img width="1139" height="761" alt="Screenshot 2025-09-30 192132" src="https://github.com/user-attachments/assets/d7db3eb1-27f6-4a9a-8a4d-9d819573f784" />
+
 - Accuracy: 72.6%  
 - Strong performance in detecting **Credit reporting complaints (Recall ~98%)
 - Struggles with Consumer Loan (Recall ~10%) and Mortgage (Recall ~29%)
 
 Naive Bayes
+<img width="1086" height="771" alt="Screenshot 2025-09-30 192153" src="https://github.com/user-attachments/assets/db42206c-b290-48da-a17c-8063d0d98180" />
+
 - Accuracy:71.3%
 - Similar trend as Logistic Regression, but slightly weaker overall  
 - Performs better than Random Forest for smaller classes like Consumer Loan
 
 Random Forest
+<img width="1153" height="260" alt="Screenshot 2025-09-30 192234" src="https://github.com/user-attachments/assets/33c5a607-4fa7-4166-9129-2af96a2cec3b" />
+
+<img width="1340" height="517" alt="Screenshot 2025-09-30 192255" src="https://github.com/user-attachments/assets/3fe33485-cf47-419c-ae15-8817888c014e" />
+
 - Accuracy: 70.9%  
 - High recall for Credit reporting, but Consumer Loan (Recall = 0%) not captured at all
+
+Model Comparison and test results
+<img width="1359" height="652" alt="Screenshot 2025-09-30 192316" src="https://github.com/user-attachments/assets/66f89fee-d3f2-4b2b-8c97-7154edfa80f0" />
 
  ** Best Model: Logistic Regression **
   Balanced trade-off between accuracy and interpretability  
